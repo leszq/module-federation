@@ -16,6 +16,8 @@ const ModuleFederationPlugin = require("webpack/lib/container/ModuleFederationPl
                 'mfe2': "mfe2@http://localhost:4202/remoteEntry.js", 
                 'mfe3': "mfe3@http://localhost:4203/remoteEntry.js", 
                 'mfe4': "mfe4@http://localhost:4204/remoteEntry.js", 
+                'vue': "vue@http://localhost:4205/remoteEntry.js", 
+                'hydra': "hydra@http://localhost:8080/remoteEntry.js", 
               },
             shared: ["@angular/core", "@angular/common", "@angular/router"]
         })
